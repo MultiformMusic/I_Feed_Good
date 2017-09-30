@@ -1,0 +1,163 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/appThemeBackground</item>
+        <item name="titleTextColor">#000000</item>
+
+        <item name="colorControlNormal">@color/mailDialogTitle</item>
+        <item name="colorControlActivated">@color/mailDialogTitle</item>
+        <item name="colorControlHighlight">@color/mailDialogTitle</item>
+
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+    </style>
+
+    <!--  Style pour liste news-->
+    <style name="listNewsFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#000000</item>
+        <item name="android:text">10sp</item>
+    </style>
+
+    <!--  Style pour PopupMenu d'une news-->
+    <style name="popupMenuStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/popUpMenuTextColor</item>
+        <item name="android:itemBackground">@color/popUpMenuBackground</item>
+        <item name="android:background">@color/popUpMenuBackground</item>
+    </style>
+
+    <!--  Theme pour Dialog Box envoi mail -->
+    <style name="dialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/mailDialogButton</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/mailDialogTitle</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@color/popUpMenuBackground</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <!--  Style pour Edit text Dialog Box envoi mail -->
+    <style name="editMailDialogStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- style pour switch flux actif -->
+    <style name="ActifSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#18ce3a</item>
+        <item name="colorControlNormal">#000000</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#000000</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#000000</item>
+    </style>
+
+    <style name="ButtonAjoutRss" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#e8dcdc</item>
+        <item name="colorButtonNormal">#e8c9c9</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_dialog</item>
+    </style>
+    <style name="DialogAnimationSlide">
+        <item name="android:windowEnterAnimation">@anim/slide_left_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_dialog</item>
+    </style>
+
+    <style name="DialogAnimationSlideConfigCategory">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in_category_config</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_out_category_config</item>
+    </style>
+
+    <style name="DialogAnimationDeleteCategoryFade">
+        <item name="android:windowEnterAnimation">@anim/slide_left_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_dialog</item>
+    </style>
+
+
+    <!-- style pour config liste -->
+    <style name="RssConfig">
+        <item name="android:background">@color/url_list_recycler</item>
+    </style>
+
+    <!-- style pour custom toast error -->
+    <style name="CustomToastError">
+        <item name="android:background">#d30018</item>
+    </style>
+
+    <!-- style pour custom toast ok -->
+    <style name="CustomToastOk">
+        <item name="android:background">#81ef9b</item>
+    </style>
+
+    <!-- style pour mail dialog -->
+    <style name="MailDialog">
+        <item name="android:background">@color/mailDialog</item>
+    </style>
+
+    <!-- style pour PopUp Information -->
+    <style name="PopupInformation">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!-- Couleur pour les 3 dots menu overflow action bar -->
+    <style name="DotsDarkTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
+        <item name="android:tint">@color/dots_overflow</item>
+    </style>
+
+    <!-- Style pour le bouton de recherche dans boite d dialogue RSS -->
+
+    <style name="ButtonSearchRss" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorControlHighlight">#144e72</item>
+        <item name="android:colorButtonNormal">#144e72</item>
+        <item name="android:background">#e09d4c</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ButtonUpdateCategory" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorControlHighlight">#144e72</item>
+        <item name="android:colorButtonNormal">#144e72</item>
+        <item name="android:background">#e09d4c</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ButtonDeleteCategory" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorControlHighlight">#144e72</item>
+        <item name="android:colorButtonNormal">#d30018</item>
+        <item name="android:background">#e09d4c</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ButtonAddCategory" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorControlHighlight">#144e72</item>
+        <item name="android:colorButtonNormal">#211301</item>
+        <item name="android:background">#4c3313</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="SpinnerConfigFiltreCategorie"
+        parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:popupBackground">#dd0000</item>
+    </style>
+
+</resources>

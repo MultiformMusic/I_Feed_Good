@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewDialogRssAdd"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        style="@style/MailDialog">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/config_how_to"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#6b280e"
+            android:background="@color/mailDialog"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_config_dialog_info"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#893514"
+            android:background="#f4ebe8"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <!--
+        <CheckBox
+            android:id="@+id/rssActif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_config_dialog_checkbox"
+            android:checked="true"
+            android:layout_marginTop="10dp"/>
+            -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:background="#e0a538"/>
+
+        <TextView
+            android:id="@+id/textViewRssUrlSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_config_dialog_url_search"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/mailDialog" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout_root_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            style="@style/MailDialog">
+
+            <TextView
+                android:id="@+id/textViewRssUrlSearchKeywords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rss_config_dialog_url_search_keywords"
+                android:textSize="15sp"
+                android:textColor="@color/mailDialogTextView"
+                android:background="@color/mailDialog"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/rssUrlSearchDialogInput"
+                android:labelFor="@+id/rssUrlSearchDialogInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/mailDialogEditText"
+                android:textCursorDrawable="@null"
+                style="@style/editMailDialogStyle"
+                android:maxLength="80"
+                android:inputType="textUri"
+                android:hint="@string/rss_config_dialog_url_search_keywords_hint">
+
+                <requestFocus />
+
+            </EditText>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSearchUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_dialog_search"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            style="@style/ButtonSearchRss"/>
+
+        <Spinner
+            android:spinnerMode="dropdown"
+            android:id="@+id/rssSearchUrlResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_config_dialog_category"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/mailDialog"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"/>
+            -->
+
+        <Spinner
+            android:spinnerMode="dropdown"
+            android:id="@+id/rssConfigCategorie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <!-- Configuration manuelle -->
+
+        <CheckBox
+            android:id="@+id/rssConfigManually"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="@string/rss_config_dialog_url"
+            android:checked="false"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/rssUrlDialogInput"
+            android:labelFor="@+id/rssUrlDialogInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/mailDialogEditText"
+            android:textCursorDrawable="@null"
+            style="@style/editMailDialogStyle"
+            android:maxLength="80"
+            android:inputType="textUri"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:id="@+id/rssUrlDialogNom"
+            android:labelFor="@+id/rssUrlDialogNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/mailDialogEditText"
+            android:textCursorDrawable="@null"
+            style="@style/editMailDialogStyle"
+            android:maxLength="80"
+            android:inputType="textUri"
+            android:hint="@string/rss_config_dialog_name_hint"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+</ScrollView>

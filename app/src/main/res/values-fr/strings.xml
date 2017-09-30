@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">I Feed Good</string>
+
+    <string name="NetworkError">Pas de réseau internet actif</string>
+    <string name="NoRssConfig">Pas d\'articles à afficher, veuillez configurer au moins un fil RSS ou en activer un</string>
+
+    <string name="listNews">Articles</string>
+    <string name="category_select">- Toutes les catégories -</string>
+    <string name="linkText">Cliquez ici pour lire l\'article</string>
+    <string name="feeds_select">- Tous les fils d\'actualités -</string>
+
+    <string name="action_refresh">Rafraichir</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_info">Manuel utilisateur</string>
+    <string name="action_rss_config">Configurer les url rss</string>
+    <string name="action_new_init">Tous les articles</string>
+    <string name="action_favourite">Articles favoris</string>
+    <string name="action_unread">Articles non lus</string>
+    <string name="action_saved">Articles sauvegadés</string>
+
+    <!-- Pour options PopupMenu d'une news -->
+    <string name="context_news_readed">Marquer comme lu</string>
+    <string name="context_news_nonreaded">Marquer comme non-lu</string>
+    <string name="context_news_favourite">Ajouter aux favoris</string>
+    <string name="context_news_unfavourite">Supprimer des favoris</string>
+    <string name="context_news_mail">Partager par mail</string>
+    <string name="context_news_save">Sauvegarder</string>
+    <string name="context_news_delete">Supprimer de la sauvegarde</string>
+    <string name="context_delete_toast">Article supprimé</string>
+    <string name="context_save_toast">Article sauvegardé</string>
+    <string name="context_already_save_toast">Article déjà sauvegardé !!</string>
+    <string name="context_already_delete_toast">Article déjà supprimé !!</string>
+    <string name="context_nok_delete_toast">Problème lors de la suppression de l\'article!!</string>
+
+    <!-- Pour dialog box envoi mail -->
+    <string name="mail_dialog_title">Envoi mail</string>
+    <string name="mail_dialog_hint">Email(s)</string>
+    <string name="mail_dialog_input">Adresse(s) mail destinataire(s) (séparateur \",\")</string>
+    <string name="mail_dialog_send">Envoyer</string>
+    <string name="mail_dialog_cancel">Annuler</string>
+
+    <!-- Pour Intent envoi mail -->
+    <string name="mail_intent_subject">Je partage cet article</string>
+    <string name="mail_intent_choice">Envoyer le mail avec…</string>
+
+    <!-- activité config url rss-->
+    <string name="action_add">Ajouter RSS</string>
+    <string name="rss_config_title">Configuration</string>
+    <string name="rss_config_button_return_main">Rafraichir la liste des articles</string>
+    <string name="rss_config_list_all_categories">- Toutes les catégories -</string>
+
+    <string name="rss_config_dialog_title">Ajout d\'un fil RSS</string>
+    <string name="config_how_to">Comment ajouter un fil RSS</string>
+    <string name="rss_config_dialog_info">
+        - Saisissez au moins un mot-clé \n
+        - Cliquer sur le bouton \"Chercher\" \n
+        - Sélectionner un flux RSS dans la liste résultat \n
+        - Sélectionnez une catégorie \n
+        - Cliquer sur "Ajouter"
+    </string>
+    <string name="rss_config_dialog_checkbox">Activer flux</string>
+    <string name="rss_config_dialog_url">Configuration manuelle (url rss et nom)</string>
+    <string name="rss_config_dialog_url_search">Rechercher des fils rss par mot-clé(s)</string>
+    <string name="rss_config_dialog_url_search_keywords">Mot-clé(s) :</string>
+    <string name="rss_config_dialog_url_search_keywords_hint">Saisir mot-clé(s) ici</string>
+    <string name="rss_config_dialog_url_search_waiting">- Cliquer sur Chercher pour liste fils rss -</string>
+    <string name="rss_config_dialog_url_search_waiting_result">Recherche RSS</string>
+    <string name="rss_config_dialog_url_search_waiting_result_message">Veuillez patientez pendant la recherche…</string>
+    <string name="rss_config_dialog_url_search_result">- Sélectionner un flux RSS -</string>
+    <string name="rss_config_dialog_url_search_error_keywords">Veuillez saisir au moins un mot-clé avant d\'effectuer une recherche</string>
+    <string name="rss_config_dialog_url_add_waiting">Ajout RSS</string>
+    <string name="rss_config_dialog_url_add_waiting_subtitle">Veuillez patientez pendant l\'ajout du fil RSS…</string>
+    <string name="rss_config_dialog_name">Saisir un nom pour ce RSS :</string>
+    <string name="rss_config_dialog_name_hint">Nom du RSS</string>
+    <string name="rss_config_dialog_category">- Sélectionner une catégorie -</string>
+    <string name="rss_config_dialog_ajouter">Ajouter</string>
+    <string name="rss_config_dialog_annuler">Retour</string>
+    <string name="rss_config_dialog_pattern_http">http://www.</string>
+
+    <!--<string name="rss_config_dialog_url_error_pattern">ATTENTION : l\'url n\'est pas une url valide !!</string>-->
+    <string name="rss_config_dialog_url_error_connexion">ATTENTION : impossible de se connecter à l\'url !!</string>
+    <string name="rss_config_dialog_url_error_data">ATTENTION : impossible de lire des données sur l\'url !!</string>
+    <string name="rss_config_dialog_url_error_no_xml">ATTENTION : le document de l\'url n\'est pas valide !!</string>
+    <string name="rss_config_dialog_url_error_rss">ATTENTION : ce n\'est pas un RSS valide !!</string>
+    <string name="rss_config_dialog_url_error_vide">ATTENTION : l\'url doit être renseignée !!</string>
+    <string name="rss_config_dialog_nom_error_vide">ATTENTION : le nom doit être renseigné !!</string>
+    <string name="rss_config_dialog_url_add_ok">{NAME} ajouté avec succès.</string>
+    <string name="rss_config_dialog_url_error_category">ATTENTION : veuillez sélectionner une catégorie !!</string>
+    <string name="rss_config_dialog_url_error_url_exists">ATTENTION : ce fil rss a déjà été ajouté !!</string>
+
+    <string name="rss_list_url">URL : </string>
+    <string name="rss_list_category">Categorie : </string>
+    <string name="rss_list_active">RSS activé : </string>
+    <string name="rss_list_active_change">Activer/désactiver</string>
+    <string name="rss_list_active_change_inactif_ok">RSS désactivé</string>
+    <string name="rss_list_active_change_inactif_nok">ATTENTION : échec désactivation du RSS</string>
+    <string name="rss_list_active_change_actif_ok">RSS activé</string>
+    <string name="rss_list_active_change_actif_nok">ATTENTION : échec activation du RSS</string>
+    <string name="rss_list_active_yes">Oui</string>
+    <string name="rss_list_active_no">Non</string>
+
+    <string name="rss_url_dialog_titre_delete">Confirmation suppression</string>
+    <string name="rss_url_dialog_message_delete">Attention : vous souhaitez supprimer le fil RSS suivant</string>
+    <string name="rss_url_dialog_delete_ok">Fil RSS supprimé</string>
+    <string name="rss_url_dialog_delete_nok">ATTENTION : problème lors de la suppresion du fil</string>
+    <string name="rss_url_dialog_titre_edit">Modifier votre fil RSS</string>
+    <string name="rss_url_dialog_edit_ok">Modification enregistrée</string>
+    <string name="rss_url_dialog_edit_nok">ATTENTION : problème lors de l\'enregistrement de la modification</string>
+
+    <string name="rss_url_list_content_modify">Bouton modifier</string>
+    <string name="rss_url_list_content_delete">Bouton supprimer</string>
+
+    <string name="common_delete">Supprimer</string>
+    <string name="common_record">Sauvegarder</string>
+
+    <string name="configure_url">Veuillez configurer un fil RSS ou en activer un</string>
+
+    <!-- Category config dialog -->
+    <string name="category_config_dialog_title">Configurer vos catégories</string>
+    <string name="category_config_liste_title">Liste de vos catégories</string>
+    <string name="category_config_liste_modify">Après avoir sélectionné une catégorie vous pouvez modifier son nom ou la supprimer.</string>
+    <string name="category_config_liste_modify_name">Catégorie sélectionnée :</string>
+    <string name="category_config_liste_modify_button">Modifier</string>
+    <string name="category_config_liste_modify_ok">Modification effectuée</string>
+    <string name="category_config_liste_modify_nok">Echec de la modification</string>
+    <string name="category_config_liste_delete_button">Supprimer</string>
+    <string name="category_config_liste_delete_error">Suppression impossible : cette catégorie est utilisée par au moins un fil RSS</string>
+    <string name="category_config_liste_delete_ok">Catégorie "{NAME}" supprimée</string>
+    <string name="category_config_liste_delete_nok">Echec lors de la suppression de la catégorie : {NAME}</string>
+    <string name="category_config_dialog_message_delete">Attention : voulez-vous vraiment supprimer cette catégorie</string>
+    <string name="category_config_dialog_title_delete">Suppression catégorie</string>
+    <string name="category_config_add">Ici vous pouvez rajouter une catégorie à votre liste en entrant son nom.</string>
+    <string name="category_config_add_hint">Entrez le nom</string>
+    <string name="category_config_liste_add_button">Ajouter</string>
+    <string name="category_config_liste_add_ok">Catégorie ajoutée</string>
+    <string name="category_config_liste_add_nok">Echec lors de l\'ajout de la catégorie</string>
+    <string name="category_config_name_error_empty">Le nom de la catégorie doit être renseignée</string>
+    <string name="category_config_name_error_exist">Cette catégorie existe déjà</string>
+
+    <!-- Popup information (notice) -->
+    <string name="information_title">Notice d\'utilisation</string>
+    <string name="information_content_close">Fermer</string>
+
+    <!-- Dialogue boite recherche -->
+    <string name="search_dialog_title">Chercher dans les articles</string>
+    <string name="search_dialog_input">Mots à rechercher avec \",\" comme séparateur (la recherche retournera les articles contenant au moins un des mot-clés)</string>
+    <string name="search_dialog_hint">Mot(s)</string>
+    <string name="search_no_result">Pas de résultats</string>
+    <string name="search_dialog_search">Chercher</string>
+
+</resources>

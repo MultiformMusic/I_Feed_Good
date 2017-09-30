@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewDialogCategoryConfig"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        style="@style/MailDialog">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_liste_title"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#6b280e"
+            android:background="@color/mailDialog"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <Spinner
+            android:spinnerMode="dropdown"
+            android:id="@+id/spinnerConfigCategories"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:background="#e0a538"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_liste_modify"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#893514"
+            android:background="#f4ebe8"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout_root_modify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            style="@style/MailDialog">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category_config_liste_modify_name"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:background="@color/mailDialog"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/categorygSelectedName"
+                android:labelFor="@+id/categorygSelectedName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null"
+                style="@style/editMailDialogStyle"
+                android:maxLength="40"
+                android:inputType="textUri" />
+
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root_modify_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        style="@style/MailDialog">
+
+        <Button
+            android:id="@+id/btnUpdateCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_liste_modify_button"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            android:layout_marginEnd="15dp"
+            style="@style/ButtonUpdateCategory"/>
+
+        <Button
+            android:id="@+id/btnDeleteCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_liste_delete_button"
+            android:textColor="#000000"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            style="@style/ButtonDeleteCategory"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="#e0a538"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_add"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#893514"
+            android:background="#f4ebe8"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/categorygAdddName"
+            android:labelFor="@+id/categorygNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            style="@style/editMailDialogStyle"
+            android:maxLength="40"
+            android:inputType="textUri"
+            android:hint="@string/category_config_add_hint"/>
+
+        <Button
+            android:id="@+id/btnAddCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_config_liste_add_button"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            style="@style/ButtonAddCategory"/>
+
+    </LinearLayout>
+</ScrollView>

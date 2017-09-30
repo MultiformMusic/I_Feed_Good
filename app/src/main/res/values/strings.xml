@@ -1,0 +1,153 @@
+<resources>
+
+    <string name="app_name">I Feed Good</string>
+
+    <string name="NetworkError">No internet connection active</string>
+    <string name="NoRssConfig">No news to show, please configure at least one RSS feed or activated one</string>
+
+    <string name="listNews">News list</string>
+    <string name="category_select">- All the categories -</string>
+    <string name="linkText">Clic here to read news</string>
+    <string name="feeds_select">- All the feeds -</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="action_info">User manual</string>
+    <string name="action_rss_config">Config RSS URL</string>
+    <string name="action_new_init">Show all the news</string>
+    <string name="action_favourite">News favourites</string>
+    <string name="action_unread">News non yet readed</string>
+    <string name="action_saved">News saved</string>
+
+    <!-- Pour options PopupMenu d'une news -->
+    <string name="context_news_readed">Flag as readed</string>
+    <string name="context_news_nonreaded">Flag as nonreaded</string>
+    <string name="context_news_favourite">Add to favourites</string>
+    <string name="context_news_unfavourite">Delete from favourites</string>
+    <string name="context_news_mail">Share by email</string>
+    <string name="context_news_save">Save news</string>
+    <string name="context_news_delete">Delete news from backup</string>
+    <string name="context_save_toast">News saved</string>
+    <string name="context_already_save_toast">News already saved !!</string>
+    <string name="context_delete_toast">News deleted</string>
+    <string name="context_already_delete_toast">News already deleted !!</string>
+    <string name="context_nok_delete_toast">Problem with delete news !!</string>
+
+    <!-- Pour dialog box envoi mail -->
+    <string name="mail_dialog_title">Send mail</string>
+    <string name="mail_dialog_hint">Email(s)</string>
+    <string name="mail_dialog_input">Email address receiver (separator \",\")</string>
+    <string name="mail_dialog_send">Send</string>
+    <string name="mail_dialog_cancel">Cancel</string>
+
+    <!-- Pour Intent envoi mail -->
+    <string name="mail_intent_subject">I share this news</string>
+    <string name="mail_intent_choice">Send mail with …</string>
+
+    <!-- activité config url rss-->
+    <string name="action_add">Add RSS</string>
+    <string name="rss_config_title">Configuration</string>
+    <string name="rss_config_button_return_main">Refresh news list</string>
+    <string name="rss_config_list_all_categories">- all categories -</string>
+
+    <string name="rss_config_dialog_title">Add RSS feed</string>
+    <string name="config_how_to">How to add a RSS Feed</string>
+    <string name="rss_config_dialog_info">
+        - Set at least one keyword \n
+        - Click on the \"Search\" button \n
+        - Select one RSS in the results list \n
+        - Select one category \n
+        - Click on the "Add" button
+    </string>
+    <string name="rss_config_dialog_checkbox">Active stream</string>
+    <string name="rss_config_dialog_url">Manual configuration (url rss and name)</string>
+    <string name="rss_config_dialog_url_search">Search a rss feed with keyword(s)</string>
+    <string name="rss_config_dialog_url_search_keywords">keyword(s) :</string>
+    <string name="rss_config_dialog_url_search_keywords_hint">Set keyword(s) here</string>
+    <string name="rss_config_dialog_url_search_waiting">- Click to search for feed results -</string>
+    <string name="rss_config_dialog_url_search_waiting_result">Searching RSS</string>
+    <string name="rss_config_dialog_url_search_waiting_result_message">Please wait while searching…</string>
+    <string name="rss_config_dialog_url_search_result">- Select one RSS feed -</string>
+    <string name="rss_config_dialog_url_search_error_keywords">Please, set at least one keyword before searching</string>
+    <string name="rss_config_dialog_url_add_waiting">Adding RSS</string>
+    <string name="rss_config_dialog_url_add_waiting_subtitle">Please wait while addind the rss feed…</string>
+    <string name="rss_config_dialog_name">Or set a name for this RSS :</string>
+    <string name="rss_config_dialog_name_hint">Name of RSS</string>
+    <string name="rss_config_dialog_category">-Select a category -</string>
+    <string name="rss_config_dialog_pattern_http">http://www.</string>
+
+    <string name="rss_config_dialog_ajouter">Add</string>
+    <string name="rss_config_dialog_annuler">Back</string>
+
+    <!--<string name="rss_config_dialog_url_error_pattern">ATTENTION : the url is not a valid url !!</string>-->
+    <string name="rss_config_dialog_url_error_connexion">ATTENTION : impossible to connect to the url !!</string>
+    <string name="rss_config_dialog_url_error_data">ATTENTION : impossible to read datas  from url !!</string>
+    <string name="rss_config_dialog_url_error_no_xml">ATTENTION : the document of the url is not valid !!</string>
+    <string name="rss_config_dialog_url_error_rss">ATTENTION : not a valid RSS feed !!</string>
+    <string name="rss_config_dialog_url_error_vide">ATTENTION : the feed must be provided !!</string>
+    <string name="rss_config_dialog_nom_error_vide">ATTENTION : the name must be provided !!</string>
+    <string name="rss_config_dialog_url_add_ok">{NAME} added with success.</string>
+    <string name="rss_config_dialog_url_error_category">ATTENTION : please, select one category !!</string>
+    <string name="rss_config_dialog_url_error_url_exists">ATTENTION : this rss feed have been already added !!</string>
+
+    <string name="rss_list_url">URL : </string>
+    <string name="rss_list_category">Category : </string>
+    <string name="rss_list_active">RSS activated : </string>
+    <string name="rss_list_active_change">Activate/desactivate</string>
+    <string name="rss_list_active_change_inactif_ok">RSS desactivated</string>
+    <string name="rss_list_active_change_inactif_nok">ATTENTION : failed to desactivate RSS</string>
+    <string name="rss_list_active_change_actif_ok">RSS activated</string>
+    <string name="rss_list_active_change_actif_nok">ATTENTION : failed to activate RSS</string>
+    <string name="rss_list_active_yes">Yes</string>
+    <string name="rss_list_active_no">No</string>
+
+    <string name="rss_url_dialog_titre_delete">Confirm delete</string>
+    <string name="rss_url_dialog_message_delete">Attention : you want to delete this RSS feed</string>
+    <string name="rss_url_dialog_delete_ok">RSS deleted</string>
+    <string name="rss_url_dialog_delete_nok">Problem to delete RSS</string>
+    <string name="rss_url_dialog_titre_edit">Edit your RSS</string>
+    <string name="rss_url_dialog_edit_ok">RSS edited</string>
+    <string name="rss_url_dialog_edit_nok">ATTENTION : fail to edit RSS</string>
+
+    <string name="rss_url_list_content_modify">Modify</string>
+    <string name="rss_url_list_content_delete">Delete supprimer</string>
+
+    <string name="common_delete">Delete</string>
+    <string name="common_record">Save</string>
+
+    <string name="configure_url">Please configure a RSS feed or actived one</string>
+
+    <!-- Category config dialog -->
+    <string name="category_config_dialog_title">Configure your categories</string>
+    <string name="category_config_liste_title">List of your categories</string>
+    <string name="category_config_liste_modify">After one category selected you can modify or delete it</string>
+    <string name="category_config_liste_modify_name">Category selected :</string>
+    <string name="category_config_liste_modify_button">Update</string>
+    <string name="category_config_liste_modify_ok">Category updated</string>
+    <string name="category_config_liste_modify_nok">Updated failed.</string>
+    <string name="category_config_liste_delete_button">Delete</string>
+    <string name="category_config_liste_delete_error">Failed to delete impossible : this category is at least used by one feed RSS</string>
+    <string name="category_config_liste_delete_ok">Category "{NAME}" deleted</string>
+    <string name="category_config_liste_delete_nok">Failed to delete category : {NAME}</string>
+    <string name="category_config_dialog_message_delete">Attention : you want to delete this Category</string>
+    <string name="category_config_dialog_title_delete">Delete category</string>
+    <string name="category_config_add">Here you can add a new category to your list by entering a name.</string>
+    <string name="category_config_add_hint">Set the category name</string>
+    <string name="category_config_liste_add_button">Add</string>
+    <string name="category_config_liste_add_ok">Category added</string>
+    <string name="category_config_liste_add_nok">Failed to add category</string>
+    <string name="category_config_name_error_empty">The category name must be provided</string>
+    <string name="category_config_name_error_exist">This category name already exists</string>
+
+    <!-- Popup information (notice) -->
+    <string name="information_title">User\'s manual</string>
+    <string name="information_content_close">Close</string>
+
+    <!-- Dialogue boite recherche -->
+    <string name="search_dialog_title">Search in news</string>
+    <string name="search_dialog_input">Words to search with \",\" as separator (research will find news witch contains at least one of the word(s))</string>
+    <string name="search_dialog_hint">Word(s)</string>
+    <string name="search_no_result">No results</string>
+    <string name="search_dialog_search">Search</string>
+
+</resources>

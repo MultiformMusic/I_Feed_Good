@@ -1,0 +1,1 @@
+include ':app', ':xmlpull-1.1.3.4d_b4_min'

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/RssConfig">
+
+    <Spinner
+        android:spinnerMode="dropdown"
+        android:id="@+id/spinnerConfigFiltreCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerListUrl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:background="@color/url_list_recycler"/>
+
+    <Button
+        android:id="@+id/btnReturnMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/rss_config_button_return_main"
+        android:background="#586666"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

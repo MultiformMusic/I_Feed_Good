@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories_array">
+        <item>-- Select one category --</item>
+        <item>Apple/IOS</item>
+        <item>Cooking</item>
+        <item>Culture</item>
+        <item>Economy</item>
+        <item>Google/Android</item>
+        <item>Hi-Tech</item>
+        <item>Health</item>
+        <item>Informatic</item>
+        <item>Music</item>
+        <item>News</item>
+        <item>Politics</item>
+        <item>Science</item>
+        <item>Stock exchange quotation</item>
+        <item>Stock exchange News</item>
+        <item>Sport</item>
+        <item>Various</item>
+    </string-array>
+
+</resources>

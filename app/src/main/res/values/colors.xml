@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Pour PopupMenu d'une news -->
+    <color name="popUpMenuBackground">#ffffff</color>
+    <color name="popUpMenuTextColor">#000000</color>
+    <color name="appThemeBackground">#d1d1c8</color>
+
+    <!-- Pour Dialog box envoi mail -->
+    <color name="mailDialog">#edeaf2</color>
+    <color name="mailDialogButton">#000000</color>
+    <color name="mailDialogTitle">#000000</color>
+    <color name="mailDialogTextView">#000000</color>
+    <color name="mailDialogEditText">#000000</color>
+
+    <color name="spinnerCategoryBackgroundMenu">#c7d0dd</color>
+    <color name="spinnerResultSearchUrlBackgroundMenu">#c7d0dd</color>
+
+    <color name="url_list">#4a454a</color>
+    <color name="url_list_text">#ffffff</color>
+    <color name="url_list_recycler">#404240</color>
+    <color name="url_list_cardview">#28282a</color>
+    <color name="url_list_name_url">#b6d3b6</color>
+
+    <color name="dots_overflow">#3d6096</color>
+
+</resources>

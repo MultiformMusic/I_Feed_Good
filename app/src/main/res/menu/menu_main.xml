@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/icon_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/icon_info"
+        android:title="@string/action_info"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_rss_config"
+        android:icon="@drawable/icon_tools"
+        android:title="@string/action_rss_config"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search"
+        android:title="@string/action_search"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_news_init"
+        android:icon="@drawable/icon_home"
+        android:title="@string/action_new_init"
+        app:showAsAction="never"/>
+
+    <item
+    android:id="@+id/action_favourite"
+    android:icon="@drawable/icon_favourite"
+    android:title="@string/action_favourite"
+    app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_unread"
+        android:icon="@drawable/icon_unread"
+        android:title="@string/action_unread"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_saved"
+        android:icon="@drawable/icon_save"
+        android:title="@string/action_saved"
+        app:showAsAction="never"/>
+
+</menu>

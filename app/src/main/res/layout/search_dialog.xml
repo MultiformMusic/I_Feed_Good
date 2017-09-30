@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    style="@style/MailDialog">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_dialog_input"
+        android:textSize="14sp"
+        android:textColor="@color/mailDialogTextView"
+        android:background="@color/mailDialog"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/searchDialogInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:hint="@string/search_dialog_hint"
+        android:textColor="@color/mailDialogEditText"
+        android:textCursorDrawable="@null"
+        style="@style/editMailDialogStyle">
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>

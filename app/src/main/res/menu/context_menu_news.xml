@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/mark_readed"
+            android:title="@string/context_news_readed"
+            android:icon="@drawable/icon_read"/>
+
+        <item android:id="@+id/mark_nonreaded"
+            android:title="@string/context_news_nonreaded"
+            android:icon="@drawable/icon_unread"/>
+
+        <item android:id="@+id/mark_favourite"
+            android:title="@string/context_news_favourite"
+            android:icon="@drawable/icon_favourite"/>
+
+
+        <item android:id="@+id/mark_unfavourite"
+            android:title="@string/context_news_unfavourite"
+            android:icon="@drawable/icon_unfavourite"/>
+
+        <item android:id="@+id/mark_mail"
+            android:title="@string/context_news_mail"
+            android:icon="@drawable/icon_mail"/>
+
+        <item android:id="@+id/mark_save"
+            android:title="@string/context_news_save"
+            android:icon="@drawable/icon_save"/>
+
+        <item android:id="@+id/mark_delete"
+            android:title="@string/context_news_delete"
+            android:icon="@drawable/icon_delete"/>
+</menu>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    style="@style/CustomToastError">
+
+
+    <TextView android:id="@+id/toast_error_text"
+        android:background="#d30018"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

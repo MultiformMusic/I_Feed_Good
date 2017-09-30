@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories_array">
+        <item>-- Sélectionner une catégorie --</item>
+        <item>Actualités</item>
+        <item>Apple/IOS</item>
+        <item>Bourse actualités</item>
+        <item>Bourse cotation</item>
+        <item>Cuisine</item>
+        <item>Culture</item>
+        <item>Divers</item>
+        <item>Economie</item>
+        <item>Google/Android</item>
+        <item>Hi-Tech</item>
+        <item>Informatique</item>
+        <item>Musique</item>
+        <item>Politique</item>
+        <item>Sciences</item>
+        <item>Santé</item>
+        <item>Sport</item>
+    </string-array>
+
+</resources>

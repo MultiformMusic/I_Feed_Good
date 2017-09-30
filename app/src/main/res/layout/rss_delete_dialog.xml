@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    style="@style/MailDialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rss_url_dialog_message_delete"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#ff0000"
+        android:background="@color/mailDialog"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/nomlListDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/mailDialogTextView"
+        android:background="@color/mailDialog"
+        android:layout_marginStart="3dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/urlTitreDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/mailDialogTextView"
+        android:background="@color/mailDialog"
+        android:layout_marginStart="3dp"
+        android:text="@string/rss_list_url"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>
