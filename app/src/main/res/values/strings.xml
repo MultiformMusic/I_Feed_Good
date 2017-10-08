@@ -57,7 +57,7 @@
         - Click on the \"Search\" button \n
         - Select one RSS in the results list \n
         - Select one category \n
-        - Click on the "Add" button
+        - Click on the "ADD" button
     </string>
     <string name="rss_config_dialog_checkbox">Active stream</string>
     <string name="rss_config_dialog_url">Manual configuration (url rss and name)</string>

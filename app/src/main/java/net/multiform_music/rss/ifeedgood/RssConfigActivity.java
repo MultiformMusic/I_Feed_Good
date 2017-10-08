@@ -305,7 +305,7 @@ public class RssConfigActivity extends AppCompatActivity {
 
     /**
      *
-     *  Gestion du clic sur le bouton ajout d'une url de la toolbar
+     *  Gestion du clic sur le bouton ajout d'un feed RSS de la toolbar
      *
      * */
     private void showAddRssDialog() {
