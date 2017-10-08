@@ -75,6 +75,7 @@
     <string name="rss_config_dialog_name_hint">Name of RSS</string>
     <string name="rss_config_dialog_category">-Select a category -</string>
     <string name="rss_config_dialog_pattern_http">http://www.</string>
+    <string name="rss_config_dialog_manually_info">Here you can choose to configure manually a rss feed url and name, use it if the rss feed is not found by the search engine (click on the checkbox to activate fields)</string>
 
     <string name="rss_config_dialog_ajouter">Add</string>
     <string name="rss_config_dialog_annuler">Back</string>

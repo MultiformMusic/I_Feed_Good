@@ -36,16 +36,6 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"/>
 
-        <!--
-        <CheckBox
-            android:id="@+id/rssActif"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/rss_config_dialog_checkbox"
-            android:checked="true"
-            android:layout_marginTop="10dp"/>
-            -->
-
         <View
             android:layout_width="fill_parent"
             android:layout_height="2dp"
@@ -118,19 +108,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp" />
 
-        <!--
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/rss_config_dialog_category"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/mailDialog"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="5dp"/>
-            -->
-
         <Spinner
             android:spinnerMode="dropdown"
             android:id="@+id/rssConfigCategorie"
@@ -139,6 +116,24 @@
             android:layout_marginTop="10dp" />
 
         <!-- Configuration manuelle -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:background="#e0a538"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_config_dialog_manually_info"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#893514"
+            android:background="#f4ebe8"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
 
         <CheckBox
             android:id="@+id/rssConfigManually"

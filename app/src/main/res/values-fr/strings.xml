@@ -78,6 +78,7 @@
     <string name="rss_config_dialog_ajouter">Ajouter</string>
     <string name="rss_config_dialog_annuler">Retour</string>
     <string name="rss_config_dialog_pattern_http">http://www.</string>
+    <string name="rss_config_dialog_manually_info">Ici vous pouvez configurer manuellement une url de fil rss, utile si fil non trouvé par le moteur de recherche (cliquer sur la case à cocher pour activer les champs de saisie)</string>
 
     <!--<string name="rss_config_dialog_url_error_pattern">ATTENTION : l\'url n\'est pas une url valide !!</string>-->
     <string name="rss_config_dialog_url_error_connexion">ATTENTION : impossible de se connecter à l\'url !!</string>
